@@ -1,0 +1,467 @@
+[
+  {
+    "objective": "potential",
+    "n": 12,
+    "path_counts": [
+      2,
+      3,
+      0,
+      2,
+      5
+    ],
+    "edge_flows": [
+      5,
+      7,
+      5,
+      0,
+      2,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    "potential": 308,
+    "social_cost": 401,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 120,
+    "lex_multiplier": 1873,
+    "objective_value": 308
+  },
+  {
+    "objective": "lex",
+    "n": 12,
+    "path_counts": [
+      3,
+      2,
+      0,
+      3,
+      4
+    ],
+    "edge_flows": [
+      5,
+      7,
+      5,
+      0,
+      3,
+      4,
+      3,
+      2,
+      5,
+      4
+    ],
+    "potential": 308,
+    "social_cost": 397,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 120,
+    "lex_multiplier": 1873,
+    "objective_value": 577281
+  },
+  {
+    "objective": "social",
+    "n": 12,
+    "path_counts": [
+      5,
+      0,
+      0,
+      3,
+      4
+    ],
+    "edge_flows": [
+      5,
+      7,
+      5,
+      0,
+      3,
+      4,
+      5,
+      0,
+      3,
+      4
+    ],
+    "potential": 314,
+    "social_cost": 389,
+    "equilibrium_gap": 4,
+    "is_pne": false,
+    "expanded_nodes": 7,
+    "expanded_arcs": 120,
+    "lex_multiplier": 1873,
+    "objective_value": 389
+  },
+  {
+    "objective": "potential",
+    "n": 40,
+    "path_counts": [
+      16,
+      0,
+      2,
+      8,
+      14
+    ],
+    "edge_flows": [
+      18,
+      22,
+      16,
+      2,
+      8,
+      14,
+      16,
+      0,
+      10,
+      14
+    ],
+    "potential": 1789,
+    "social_cost": 2774,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 400,
+    "lex_multiplier": 19681,
+    "objective_value": 1789
+  },
+  {
+    "objective": "lex",
+    "n": 40,
+    "path_counts": [
+      16,
+      0,
+      1,
+      8,
+      15
+    ],
+    "edge_flows": [
+      17,
+      23,
+      16,
+      1,
+      8,
+      15,
+      16,
+      0,
+      9,
+      15
+    ],
+    "potential": 1789,
+    "social_cost": 2772,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 400,
+    "lex_multiplier": 19681,
+    "objective_value": 35212081
+  },
+  {
+    "objective": "social",
+    "n": 40,
+    "path_counts": [
+      16,
+      0,
+      2,
+      7,
+      15
+    ],
+    "edge_flows": [
+      18,
+      22,
+      16,
+      2,
+      7,
+      15,
+      16,
+      0,
+      9,
+      15
+    ],
+    "potential": 1791,
+    "social_cost": 2772,
+    "equilibrium_gap": 2,
+    "is_pne": false,
+    "expanded_nodes": 7,
+    "expanded_arcs": 400,
+    "lex_multiplier": 19681,
+    "objective_value": 2772
+  },
+  {
+    "objective": "potential",
+    "n": 80,
+    "path_counts": [
+      32,
+      0,
+      3,
+      15,
+      30
+    ],
+    "edge_flows": [
+      35,
+      45,
+      32,
+      3,
+      15,
+      30,
+      32,
+      0,
+      18,
+      30
+    ],
+    "potential": 5678,
+    "social_cost": 9740,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 800,
+    "lex_multiplier": 77761,
+    "objective_value": 5678
+  },
+  {
+    "objective": "lex",
+    "n": 80,
+    "path_counts": [
+      32,
+      0,
+      3,
+      15,
+      30
+    ],
+    "edge_flows": [
+      35,
+      45,
+      32,
+      3,
+      15,
+      30,
+      32,
+      0,
+      18,
+      30
+    ],
+    "potential": 5678,
+    "social_cost": 9740,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 800,
+    "lex_multiplier": 77761,
+    "objective_value": 441536698
+  },
+  {
+    "objective": "social",
+    "n": 80,
+    "path_counts": [
+      33,
+      0,
+      3,
+      14,
+      30
+    ],
+    "edge_flows": [
+      36,
+      44,
+      33,
+      3,
+      14,
+      30,
+      33,
+      0,
+      17,
+      30
+    ],
+    "potential": 5681,
+    "social_cost": 9739,
+    "equilibrium_gap": 3,
+    "is_pne": false,
+    "expanded_nodes": 7,
+    "expanded_arcs": 800,
+    "lex_multiplier": 77761,
+    "objective_value": 9739
+  },
+  {
+    "objective": "potential",
+    "n": 160,
+    "path_counts": [
+      65,
+      0,
+      6,
+      29,
+      60
+    ],
+    "edge_flows": [
+      71,
+      89,
+      65,
+      6,
+      29,
+      60,
+      65,
+      0,
+      35,
+      60
+    ],
+    "potential": 19747,
+    "social_cost": 36255,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 1600,
+    "lex_multiplier": 309121,
+    "objective_value": 19747
+  },
+  {
+    "objective": "lex",
+    "n": 160,
+    "path_counts": [
+      66,
+      0,
+      5,
+      29,
+      60
+    ],
+    "edge_flows": [
+      71,
+      89,
+      66,
+      5,
+      29,
+      60,
+      66,
+      0,
+      34,
+      60
+    ],
+    "potential": 19747,
+    "social_cost": 36252,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 1600,
+    "lex_multiplier": 309121,
+    "objective_value": 6104248639
+  },
+  {
+    "objective": "social",
+    "n": 160,
+    "path_counts": [
+      66,
+      0,
+      6,
+      28,
+      60
+    ],
+    "edge_flows": [
+      72,
+      88,
+      66,
+      6,
+      28,
+      60,
+      66,
+      0,
+      34,
+      60
+    ],
+    "potential": 19749,
+    "social_cost": 36252,
+    "equilibrium_gap": 2,
+    "is_pne": false,
+    "expanded_nodes": 7,
+    "expanded_arcs": 1600,
+    "lex_multiplier": 309121,
+    "objective_value": 36252
+  },
+  {
+    "objective": "potential",
+    "n": 400,
+    "path_counts": [
+      165,
+      0,
+      14,
+      70,
+      151
+    ],
+    "edge_flows": [
+      179,
+      221,
+      165,
+      14,
+      70,
+      151,
+      165,
+      0,
+      84,
+      151
+    ],
+    "potential": 112271,
+    "social_cost": 216425,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 4000,
+    "lex_multiplier": 1924801,
+    "objective_value": 112271
+  },
+  {
+    "objective": "lex",
+    "n": 400,
+    "path_counts": [
+      165,
+      0,
+      14,
+      70,
+      151
+    ],
+    "edge_flows": [
+      179,
+      221,
+      165,
+      14,
+      70,
+      151,
+      165,
+      0,
+      84,
+      151
+    ],
+    "potential": 112271,
+    "social_cost": 216425,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 4000,
+    "lex_multiplier": 1924801,
+    "objective_value": 216099549496
+  },
+  {
+    "objective": "social",
+    "n": 400,
+    "path_counts": [
+      165,
+      0,
+      14,
+      70,
+      151
+    ],
+    "edge_flows": [
+      179,
+      221,
+      165,
+      14,
+      70,
+      151,
+      165,
+      0,
+      84,
+      151
+    ],
+    "potential": 112271,
+    "social_cost": 216425,
+    "equilibrium_gap": 0,
+    "is_pne": true,
+    "expanded_nodes": 7,
+    "expanded_arcs": 4000,
+    "lex_multiplier": 1924801,
+    "objective_value": 216425
+  }
+]

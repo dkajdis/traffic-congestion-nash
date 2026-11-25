@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+replay_results/
+verification_report.json
+reproducibility_check.json
+independent_review_results.json

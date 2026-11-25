@@ -1,0 +1,2046 @@
+{
+  "algorithm_summary": [
+    {
+      "rule": "cyclic",
+      "runs": 100,
+      "cost_min": 397,
+      "cost_max": 411,
+      "cost_mean": 398.82,
+      "moves_median": 4.5,
+      "queries_median": 24.0,
+      "queries_min": 24,
+      "queries_max": 24,
+      "candidate_median": 120.0,
+      "outcomes": {
+        "397": 72,
+        "401": 19,
+        "407": 5,
+        "411": 4
+      }
+    },
+    {
+      "rule": "random",
+      "runs": 100,
+      "cost_min": 397,
+      "cost_max": 411,
+      "cost_mean": 398.5,
+      "moves_median": 4.5,
+      "queries_median": 24.0,
+      "queries_min": 24,
+      "queries_max": 36,
+      "candidate_median": 120.0,
+      "outcomes": {
+        "397": 74,
+        "401": 19,
+        "407": 6,
+        "411": 1
+      }
+    },
+    {
+      "rule": "max_gain",
+      "runs": 100,
+      "cost_min": 397,
+      "cost_max": 411,
+      "cost_mean": 401.62,
+      "moves_median": 3.0,
+      "queries_median": 48.0,
+      "queries_min": 24,
+      "queries_max": 96,
+      "candidate_median": 240.0,
+      "outcomes": {
+        "397": 52,
+        "401": 11,
+        "407": 25,
+        "411": 12
+      }
+    }
+  ],
+  "flow_N12": {
+    "potential": {
+      "objective": "potential",
+      "n": 12,
+      "path_counts": [
+        2,
+        3,
+        0,
+        2,
+        5
+      ],
+      "edge_flows": [
+        5,
+        7,
+        5,
+        0,
+        2,
+        5,
+        2,
+        3,
+        5,
+        5
+      ],
+      "potential": 308,
+      "social_cost": 401,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 120,
+      "lex_multiplier": 1873,
+      "objective_value": 308
+    },
+    "lex": {
+      "objective": "lex",
+      "n": 12,
+      "path_counts": [
+        3,
+        2,
+        0,
+        3,
+        4
+      ],
+      "edge_flows": [
+        5,
+        7,
+        5,
+        0,
+        3,
+        4,
+        3,
+        2,
+        5,
+        4
+      ],
+      "potential": 308,
+      "social_cost": 397,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 120,
+      "lex_multiplier": 1873,
+      "objective_value": 577281
+    },
+    "social": {
+      "objective": "social",
+      "n": 12,
+      "path_counts": [
+        5,
+        0,
+        0,
+        3,
+        4
+      ],
+      "edge_flows": [
+        5,
+        7,
+        5,
+        0,
+        3,
+        4,
+        5,
+        0,
+        3,
+        4
+      ],
+      "potential": 314,
+      "social_cost": 389,
+      "equilibrium_gap": 4,
+      "is_pne": false,
+      "expanded_nodes": 7,
+      "expanded_arcs": 120,
+      "lex_multiplier": 1873,
+      "objective_value": 389
+    }
+  },
+  "road_N12": {
+    "base": {
+      "edges": [
+        [
+          "O",
+          "A",
+          2,
+          2
+        ],
+        [
+          "O",
+          "B",
+          7,
+          1
+        ],
+        [
+          "A",
+          "C",
+          3,
+          1
+        ],
+        [
+          "A",
+          "D",
+          12,
+          0
+        ],
+        [
+          "B",
+          "D",
+          2,
+          2
+        ],
+        [
+          "B",
+          "E",
+          8,
+          1
+        ],
+        [
+          "C",
+          "T",
+          14,
+          0
+        ],
+        [
+          "C",
+          "D",
+          1,
+          0
+        ],
+        [
+          "D",
+          "T",
+          1,
+          2
+        ],
+        [
+          "E",
+          "T",
+          3,
+          1
+        ]
+      ],
+      "paths": [
+        [
+          "O",
+          "A",
+          "C",
+          "T"
+        ],
+        [
+          "O",
+          "A",
+          "C",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "A",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "E",
+          "T"
+        ]
+      ],
+      "exact": {
+        "n": 12,
+        "k": 5,
+        "states": 1820,
+        "phi_min": 308,
+        "lex_phi_social_cost": 397,
+        "social_optimum": 389,
+        "social_optimum_counts": [
+          [
+            5,
+            0,
+            0,
+            3,
+            4
+          ]
+        ],
+        "ne_count": 4,
+        "ne_best": 397,
+        "ne_worst": 411,
+        "equilibria": [
+          {
+            "counts": [
+              1,
+              4,
+              0,
+              2,
+              5
+            ],
+            "social_cost": 411,
+            "potential": 308
+          },
+          {
+            "counts": [
+              2,
+              3,
+              0,
+              2,
+              5
+            ],
+            "social_cost": 401,
+            "potential": 308
+          },
+          {
+            "counts": [
+              2,
+              3,
+              0,
+              3,
+              4
+            ],
+            "social_cost": 407,
+            "potential": 308
+          },
+          {
+            "counts": [
+              3,
+              2,
+              0,
+              3,
+              4
+            ],
+            "social_cost": 397,
+            "potential": 308
+          }
+        ]
+      },
+      "flows": {
+        "potential": {
+          "objective": "potential",
+          "n": 12,
+          "path_counts": [
+            2,
+            3,
+            0,
+            2,
+            5
+          ],
+          "edge_flows": [
+            5,
+            7,
+            5,
+            0,
+            2,
+            5,
+            2,
+            3,
+            5,
+            5
+          ],
+          "potential": 308,
+          "social_cost": 401,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 120,
+          "lex_multiplier": 1873,
+          "objective_value": 308
+        },
+        "lex": {
+          "objective": "lex",
+          "n": 12,
+          "path_counts": [
+            3,
+            2,
+            0,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            5,
+            0,
+            3,
+            4,
+            3,
+            2,
+            5,
+            4
+          ],
+          "potential": 308,
+          "social_cost": 397,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 120,
+          "lex_multiplier": 1873,
+          "objective_value": 577281
+        },
+        "social": {
+          "objective": "social",
+          "n": 12,
+          "path_counts": [
+            5,
+            0,
+            0,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            5,
+            0,
+            3,
+            4,
+            5,
+            0,
+            3,
+            4
+          ],
+          "potential": 314,
+          "social_cost": 389,
+          "equilibrium_gap": 4,
+          "is_pne": false,
+          "expanded_nodes": 7,
+          "expanded_arcs": 120,
+          "lex_multiplier": 1873,
+          "objective_value": 389
+        }
+      }
+    },
+    "add_BC": {
+      "edges": [
+        [
+          "O",
+          "A",
+          2,
+          2
+        ],
+        [
+          "O",
+          "B",
+          7,
+          1
+        ],
+        [
+          "A",
+          "C",
+          3,
+          1
+        ],
+        [
+          "A",
+          "D",
+          12,
+          0
+        ],
+        [
+          "B",
+          "D",
+          2,
+          2
+        ],
+        [
+          "B",
+          "E",
+          8,
+          1
+        ],
+        [
+          "C",
+          "T",
+          14,
+          0
+        ],
+        [
+          "C",
+          "D",
+          1,
+          0
+        ],
+        [
+          "D",
+          "T",
+          1,
+          2
+        ],
+        [
+          "E",
+          "T",
+          3,
+          1
+        ],
+        [
+          "B",
+          "C",
+          2,
+          0
+        ]
+      ],
+      "paths": [
+        [
+          "O",
+          "A",
+          "C",
+          "T"
+        ],
+        [
+          "O",
+          "A",
+          "C",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "A",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "E",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "C",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "C",
+          "D",
+          "T"
+        ]
+      ],
+      "exact": {
+        "n": 12,
+        "k": 7,
+        "states": 18564,
+        "phi_min": 292,
+        "lex_phi_social_cost": 360,
+        "social_optimum": 351,
+        "social_optimum_counts": [
+          [
+            0,
+            3,
+            0,
+            0,
+            1,
+            8,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            1,
+            7,
+            1
+          ],
+          [
+            1,
+            3,
+            0,
+            0,
+            1,
+            7,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            0,
+            1,
+            6,
+            2
+          ],
+          [
+            2,
+            2,
+            0,
+            0,
+            1,
+            6,
+            1
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            1,
+            5,
+            3
+          ],
+          [
+            3,
+            1,
+            0,
+            0,
+            1,
+            5,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            1,
+            4,
+            3
+          ]
+        ],
+        "ne_count": 10,
+        "ne_best": 360,
+        "ne_worst": 370,
+        "equilibria": [
+          {
+            "counts": [
+              0,
+              4,
+              0,
+              0,
+              2,
+              4,
+              2
+            ],
+            "social_cost": 370,
+            "potential": 292
+          },
+          {
+            "counts": [
+              0,
+              4,
+              0,
+              0,
+              2,
+              5,
+              1
+            ],
+            "social_cost": 360,
+            "potential": 292
+          },
+          {
+            "counts": [
+              1,
+              3,
+              0,
+              0,
+              2,
+              3,
+              3
+            ],
+            "social_cost": 370,
+            "potential": 292
+          },
+          {
+            "counts": [
+              1,
+              3,
+              0,
+              0,
+              2,
+              4,
+              2
+            ],
+            "social_cost": 360,
+            "potential": 292
+          },
+          {
+            "counts": [
+              2,
+              2,
+              0,
+              0,
+              2,
+              2,
+              4
+            ],
+            "social_cost": 370,
+            "potential": 292
+          },
+          {
+            "counts": [
+              2,
+              2,
+              0,
+              0,
+              2,
+              3,
+              3
+            ],
+            "social_cost": 360,
+            "potential": 292
+          },
+          {
+            "counts": [
+              3,
+              1,
+              0,
+              0,
+              2,
+              1,
+              5
+            ],
+            "social_cost": 370,
+            "potential": 292
+          },
+          {
+            "counts": [
+              3,
+              1,
+              0,
+              0,
+              2,
+              2,
+              4
+            ],
+            "social_cost": 360,
+            "potential": 292
+          },
+          {
+            "counts": [
+              4,
+              0,
+              0,
+              0,
+              2,
+              0,
+              6
+            ],
+            "social_cost": 370,
+            "potential": 292
+          },
+          {
+            "counts": [
+              4,
+              0,
+              0,
+              0,
+              2,
+              1,
+              5
+            ],
+            "social_cost": 360,
+            "potential": 292
+          }
+        ]
+      },
+      "flows": {
+        "potential": {
+          "objective": "potential",
+          "n": 12,
+          "path_counts": [
+            4,
+            0,
+            0,
+            0,
+            2,
+            1,
+            5
+          ],
+          "edge_flows": [
+            4,
+            8,
+            4,
+            0,
+            0,
+            2,
+            5,
+            5,
+            5,
+            2,
+            6
+          ],
+          "potential": 292,
+          "social_cost": 360,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 132,
+          "lex_multiplier": 1873,
+          "objective_value": 292
+        },
+        "lex": {
+          "objective": "lex",
+          "n": 12,
+          "path_counts": [
+            4,
+            0,
+            0,
+            0,
+            2,
+            1,
+            5
+          ],
+          "edge_flows": [
+            4,
+            8,
+            4,
+            0,
+            0,
+            2,
+            5,
+            5,
+            5,
+            2,
+            6
+          ],
+          "potential": 292,
+          "social_cost": 360,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 132,
+          "lex_multiplier": 1873,
+          "objective_value": 547276
+        },
+        "social": {
+          "objective": "social",
+          "n": 12,
+          "path_counts": [
+            4,
+            0,
+            0,
+            0,
+            1,
+            4,
+            3
+          ],
+          "edge_flows": [
+            4,
+            8,
+            4,
+            0,
+            0,
+            1,
+            8,
+            3,
+            3,
+            1,
+            7
+          ],
+          "potential": 299,
+          "social_cost": 351,
+          "equilibrium_gap": 4,
+          "is_pne": false,
+          "expanded_nodes": 7,
+          "expanded_arcs": 132,
+          "lex_multiplier": 1873,
+          "objective_value": 351
+        }
+      }
+    },
+    "delete_CD": {
+      "edges": [
+        [
+          "O",
+          "A",
+          2,
+          2
+        ],
+        [
+          "O",
+          "B",
+          7,
+          1
+        ],
+        [
+          "A",
+          "C",
+          3,
+          1
+        ],
+        [
+          "A",
+          "D",
+          12,
+          0
+        ],
+        [
+          "B",
+          "D",
+          2,
+          2
+        ],
+        [
+          "B",
+          "E",
+          8,
+          1
+        ],
+        [
+          "C",
+          "T",
+          14,
+          0
+        ],
+        [
+          "D",
+          "T",
+          1,
+          2
+        ],
+        [
+          "E",
+          "T",
+          3,
+          1
+        ]
+      ],
+      "paths": [
+        [
+          "O",
+          "A",
+          "C",
+          "T"
+        ],
+        [
+          "O",
+          "A",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "E",
+          "T"
+        ]
+      ],
+      "exact": {
+        "n": 12,
+        "k": 4,
+        "states": 455,
+        "phi_min": 313,
+        "lex_phi_social_cost": 390,
+        "social_optimum": 389,
+        "social_optimum_counts": [
+          [
+            5,
+            0,
+            3,
+            4
+          ]
+        ],
+        "ne_count": 2,
+        "ne_best": 390,
+        "ne_worst": 395,
+        "equilibria": [
+          {
+            "counts": [
+              4,
+              1,
+              3,
+              4
+            ],
+            "social_cost": 390,
+            "potential": 313
+          },
+          {
+            "counts": [
+              5,
+              0,
+              4,
+              3
+            ],
+            "social_cost": 395,
+            "potential": 314
+          }
+        ]
+      },
+      "flows": {
+        "potential": {
+          "objective": "potential",
+          "n": 12,
+          "path_counts": [
+            4,
+            1,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            4,
+            1,
+            3,
+            4,
+            4,
+            4,
+            4
+          ],
+          "potential": 313,
+          "social_cost": 390,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 108,
+          "lex_multiplier": 1873,
+          "objective_value": 313
+        },
+        "lex": {
+          "objective": "lex",
+          "n": 12,
+          "path_counts": [
+            4,
+            1,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            4,
+            1,
+            3,
+            4,
+            4,
+            4,
+            4
+          ],
+          "potential": 313,
+          "social_cost": 390,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 108,
+          "lex_multiplier": 1873,
+          "objective_value": 586639
+        },
+        "social": {
+          "objective": "social",
+          "n": 12,
+          "path_counts": [
+            5,
+            0,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            5,
+            0,
+            3,
+            4,
+            5,
+            3,
+            4
+          ],
+          "potential": 314,
+          "social_cost": 389,
+          "equilibrium_gap": 1,
+          "is_pne": false,
+          "expanded_nodes": 7,
+          "expanded_arcs": 108,
+          "lex_multiplier": 1873,
+          "objective_value": 389
+        }
+      }
+    },
+    "improve_DT": {
+      "edges": [
+        [
+          "O",
+          "A",
+          2,
+          2
+        ],
+        [
+          "O",
+          "B",
+          7,
+          1
+        ],
+        [
+          "A",
+          "C",
+          3,
+          1
+        ],
+        [
+          "A",
+          "D",
+          12,
+          0
+        ],
+        [
+          "B",
+          "D",
+          2,
+          2
+        ],
+        [
+          "B",
+          "E",
+          8,
+          1
+        ],
+        [
+          "C",
+          "T",
+          14,
+          0
+        ],
+        [
+          "C",
+          "D",
+          1,
+          0
+        ],
+        [
+          "D",
+          "T",
+          1,
+          1
+        ],
+        [
+          "E",
+          "T",
+          3,
+          1
+        ]
+      ],
+      "paths": [
+        [
+          "O",
+          "A",
+          "C",
+          "T"
+        ],
+        [
+          "O",
+          "A",
+          "C",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "A",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "D",
+          "T"
+        ],
+        [
+          "O",
+          "B",
+          "E",
+          "T"
+        ]
+      ],
+      "exact": {
+        "n": 12,
+        "k": 5,
+        "states": 1820,
+        "phi_min": 278,
+        "lex_phi_social_cost": 375,
+        "social_optimum": 370,
+        "social_optimum_counts": [
+          [
+            2,
+            2,
+            1,
+            3,
+            4
+          ]
+        ],
+        "ne_count": 1,
+        "ne_best": 375,
+        "ne_worst": 375,
+        "equilibria": [
+          {
+            "counts": [
+              0,
+              5,
+              0,
+              3,
+              4
+            ],
+            "social_cost": 375,
+            "potential": 278
+          }
+        ]
+      },
+      "flows": {
+        "potential": {
+          "objective": "potential",
+          "n": 12,
+          "path_counts": [
+            0,
+            5,
+            0,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            5,
+            0,
+            3,
+            4,
+            0,
+            5,
+            8,
+            4
+          ],
+          "potential": 278,
+          "social_cost": 375,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 120,
+          "lex_multiplier": 1873,
+          "objective_value": 278
+        },
+        "lex": {
+          "objective": "lex",
+          "n": 12,
+          "path_counts": [
+            0,
+            5,
+            0,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            5,
+            0,
+            3,
+            4,
+            0,
+            5,
+            8,
+            4
+          ],
+          "potential": 278,
+          "social_cost": 375,
+          "equilibrium_gap": 0,
+          "is_pne": true,
+          "expanded_nodes": 7,
+          "expanded_arcs": 120,
+          "lex_multiplier": 1873,
+          "objective_value": 521069
+        },
+        "social": {
+          "objective": "social",
+          "n": 12,
+          "path_counts": [
+            2,
+            2,
+            1,
+            3,
+            4
+          ],
+          "edge_flows": [
+            5,
+            7,
+            4,
+            1,
+            3,
+            4,
+            2,
+            2,
+            6,
+            4
+          ],
+          "potential": 290,
+          "social_cost": 370,
+          "equilibrium_gap": 5,
+          "is_pne": false,
+          "expanded_nodes": 7,
+          "expanded_arcs": 120,
+          "lex_multiplier": 1873,
+          "objective_value": 370
+        }
+      }
+    }
+  },
+  "scaling_summary": [
+    {
+      "n": 12,
+      "rule": "cyclic",
+      "runs": 10,
+      "moves_median": 3.5,
+      "queries_median": 24.0,
+      "candidates_median": 120.0,
+      "queries_min": 24,
+      "queries_max": 24,
+      "cost_min": 397,
+      "cost_max": 401
+    },
+    {
+      "n": 12,
+      "rule": "random",
+      "runs": 10,
+      "moves_median": 4.0,
+      "queries_median": 24.0,
+      "candidates_median": 120.0,
+      "queries_min": 24,
+      "queries_max": 24,
+      "cost_min": 397,
+      "cost_max": 401
+    },
+    {
+      "n": 12,
+      "rule": "max_gain",
+      "runs": 10,
+      "moves_median": 3.0,
+      "queries_median": 48.0,
+      "candidates_median": 240.0,
+      "queries_min": 24,
+      "queries_max": 72,
+      "cost_min": 397,
+      "cost_max": 411
+    },
+    {
+      "n": 40,
+      "rule": "cyclic",
+      "runs": 10,
+      "moves_median": 21.5,
+      "queries_median": 80.0,
+      "candidates_median": 400.0,
+      "queries_min": 80,
+      "queries_max": 80,
+      "cost_min": 2772,
+      "cost_max": 2772
+    },
+    {
+      "n": 40,
+      "rule": "random",
+      "runs": 10,
+      "moves_median": 20.5,
+      "queries_median": 80.0,
+      "candidates_median": 400.0,
+      "queries_min": 80,
+      "queries_max": 120,
+      "cost_min": 2772,
+      "cost_max": 2775
+    },
+    {
+      "n": 40,
+      "rule": "max_gain",
+      "runs": 10,
+      "moves_median": 14.5,
+      "queries_median": 620.0,
+      "candidates_median": 3100.0,
+      "queries_min": 400,
+      "queries_max": 880,
+      "cost_min": 2774,
+      "cost_max": 2775
+    },
+    {
+      "n": 80,
+      "rule": "cyclic",
+      "runs": 10,
+      "moves_median": 44.5,
+      "queries_median": 160.0,
+      "candidates_median": 800.0,
+      "queries_min": 160,
+      "queries_max": 240,
+      "cost_min": 9740,
+      "cost_max": 9740
+    },
+    {
+      "n": 80,
+      "rule": "random",
+      "runs": 10,
+      "moves_median": 44.5,
+      "queries_median": 160.0,
+      "candidates_median": 800.0,
+      "queries_min": 160,
+      "queries_max": 240,
+      "cost_min": 9740,
+      "cost_max": 9740
+    },
+    {
+      "n": 80,
+      "rule": "max_gain",
+      "runs": 10,
+      "moves_median": 32.0,
+      "queries_median": 2640.0,
+      "candidates_median": 13200.0,
+      "queries_min": 2160,
+      "queries_max": 3280,
+      "cost_min": 9740,
+      "cost_max": 9740
+    },
+    {
+      "n": 160,
+      "rule": "cyclic",
+      "runs": 10,
+      "moves_median": 90.0,
+      "queries_median": 320.0,
+      "candidates_median": 1600.0,
+      "queries_min": 320,
+      "queries_max": 480,
+      "cost_min": 36252,
+      "cost_max": 36255
+    },
+    {
+      "n": 160,
+      "rule": "random",
+      "runs": 10,
+      "moves_median": 93.0,
+      "queries_median": 320.0,
+      "candidates_median": 1600.0,
+      "queries_min": 320,
+      "queries_max": 480,
+      "cost_min": 36252,
+      "cost_max": 36255
+    },
+    {
+      "n": 160,
+      "rule": "max_gain",
+      "runs": 10,
+      "moves_median": 63.5,
+      "queries_median": 10320.0,
+      "candidates_median": 51600.0,
+      "queries_min": 8480,
+      "queries_max": 11680,
+      "cost_min": 36255,
+      "cost_max": 36255
+    },
+    {
+      "n": 400,
+      "rule": "cyclic",
+      "runs": 10,
+      "moves_median": 224.5,
+      "queries_median": 800.0,
+      "candidates_median": 4000.0,
+      "queries_min": 800,
+      "queries_max": 1200,
+      "cost_min": 216425,
+      "cost_max": 216425
+    },
+    {
+      "n": 400,
+      "rule": "random",
+      "runs": 10,
+      "moves_median": 226.0,
+      "queries_median": 800.0,
+      "candidates_median": 4000.0,
+      "queries_min": 800,
+      "queries_max": 1200,
+      "cost_min": 216425,
+      "cost_max": 216425
+    },
+    {
+      "n": 400,
+      "rule": "max_gain",
+      "runs": 10,
+      "moves_median": 160.0,
+      "queries_median": 64400.0,
+      "candidates_median": 322000.0,
+      "queries_min": 58800,
+      "queries_max": 68800,
+      "cost_min": 216425,
+      "cost_max": 216425
+    }
+  ],
+  "scaling_flows": [
+    {
+      "objective": "potential",
+      "n": 12,
+      "path_counts": [
+        2,
+        3,
+        0,
+        2,
+        5
+      ],
+      "edge_flows": [
+        5,
+        7,
+        5,
+        0,
+        2,
+        5,
+        2,
+        3,
+        5,
+        5
+      ],
+      "potential": 308,
+      "social_cost": 401,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 120,
+      "lex_multiplier": 1873,
+      "objective_value": 308
+    },
+    {
+      "objective": "lex",
+      "n": 12,
+      "path_counts": [
+        3,
+        2,
+        0,
+        3,
+        4
+      ],
+      "edge_flows": [
+        5,
+        7,
+        5,
+        0,
+        3,
+        4,
+        3,
+        2,
+        5,
+        4
+      ],
+      "potential": 308,
+      "social_cost": 397,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 120,
+      "lex_multiplier": 1873,
+      "objective_value": 577281
+    },
+    {
+      "objective": "social",
+      "n": 12,
+      "path_counts": [
+        5,
+        0,
+        0,
+        3,
+        4
+      ],
+      "edge_flows": [
+        5,
+        7,
+        5,
+        0,
+        3,
+        4,
+        5,
+        0,
+        3,
+        4
+      ],
+      "potential": 314,
+      "social_cost": 389,
+      "equilibrium_gap": 4,
+      "is_pne": false,
+      "expanded_nodes": 7,
+      "expanded_arcs": 120,
+      "lex_multiplier": 1873,
+      "objective_value": 389
+    },
+    {
+      "objective": "potential",
+      "n": 40,
+      "path_counts": [
+        16,
+        0,
+        2,
+        8,
+        14
+      ],
+      "edge_flows": [
+        18,
+        22,
+        16,
+        2,
+        8,
+        14,
+        16,
+        0,
+        10,
+        14
+      ],
+      "potential": 1789,
+      "social_cost": 2774,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 400,
+      "lex_multiplier": 19681,
+      "objective_value": 1789
+    },
+    {
+      "objective": "lex",
+      "n": 40,
+      "path_counts": [
+        16,
+        0,
+        1,
+        8,
+        15
+      ],
+      "edge_flows": [
+        17,
+        23,
+        16,
+        1,
+        8,
+        15,
+        16,
+        0,
+        9,
+        15
+      ],
+      "potential": 1789,
+      "social_cost": 2772,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 400,
+      "lex_multiplier": 19681,
+      "objective_value": 35212081
+    },
+    {
+      "objective": "social",
+      "n": 40,
+      "path_counts": [
+        16,
+        0,
+        2,
+        7,
+        15
+      ],
+      "edge_flows": [
+        18,
+        22,
+        16,
+        2,
+        7,
+        15,
+        16,
+        0,
+        9,
+        15
+      ],
+      "potential": 1791,
+      "social_cost": 2772,
+      "equilibrium_gap": 2,
+      "is_pne": false,
+      "expanded_nodes": 7,
+      "expanded_arcs": 400,
+      "lex_multiplier": 19681,
+      "objective_value": 2772
+    },
+    {
+      "objective": "potential",
+      "n": 80,
+      "path_counts": [
+        32,
+        0,
+        3,
+        15,
+        30
+      ],
+      "edge_flows": [
+        35,
+        45,
+        32,
+        3,
+        15,
+        30,
+        32,
+        0,
+        18,
+        30
+      ],
+      "potential": 5678,
+      "social_cost": 9740,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 800,
+      "lex_multiplier": 77761,
+      "objective_value": 5678
+    },
+    {
+      "objective": "lex",
+      "n": 80,
+      "path_counts": [
+        32,
+        0,
+        3,
+        15,
+        30
+      ],
+      "edge_flows": [
+        35,
+        45,
+        32,
+        3,
+        15,
+        30,
+        32,
+        0,
+        18,
+        30
+      ],
+      "potential": 5678,
+      "social_cost": 9740,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 800,
+      "lex_multiplier": 77761,
+      "objective_value": 441536698
+    },
+    {
+      "objective": "social",
+      "n": 80,
+      "path_counts": [
+        33,
+        0,
+        3,
+        14,
+        30
+      ],
+      "edge_flows": [
+        36,
+        44,
+        33,
+        3,
+        14,
+        30,
+        33,
+        0,
+        17,
+        30
+      ],
+      "potential": 5681,
+      "social_cost": 9739,
+      "equilibrium_gap": 3,
+      "is_pne": false,
+      "expanded_nodes": 7,
+      "expanded_arcs": 800,
+      "lex_multiplier": 77761,
+      "objective_value": 9739
+    },
+    {
+      "objective": "potential",
+      "n": 160,
+      "path_counts": [
+        65,
+        0,
+        6,
+        29,
+        60
+      ],
+      "edge_flows": [
+        71,
+        89,
+        65,
+        6,
+        29,
+        60,
+        65,
+        0,
+        35,
+        60
+      ],
+      "potential": 19747,
+      "social_cost": 36255,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 1600,
+      "lex_multiplier": 309121,
+      "objective_value": 19747
+    },
+    {
+      "objective": "lex",
+      "n": 160,
+      "path_counts": [
+        66,
+        0,
+        5,
+        29,
+        60
+      ],
+      "edge_flows": [
+        71,
+        89,
+        66,
+        5,
+        29,
+        60,
+        66,
+        0,
+        34,
+        60
+      ],
+      "potential": 19747,
+      "social_cost": 36252,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 1600,
+      "lex_multiplier": 309121,
+      "objective_value": 6104248639
+    },
+    {
+      "objective": "social",
+      "n": 160,
+      "path_counts": [
+        66,
+        0,
+        6,
+        28,
+        60
+      ],
+      "edge_flows": [
+        72,
+        88,
+        66,
+        6,
+        28,
+        60,
+        66,
+        0,
+        34,
+        60
+      ],
+      "potential": 19749,
+      "social_cost": 36252,
+      "equilibrium_gap": 2,
+      "is_pne": false,
+      "expanded_nodes": 7,
+      "expanded_arcs": 1600,
+      "lex_multiplier": 309121,
+      "objective_value": 36252
+    },
+    {
+      "objective": "potential",
+      "n": 400,
+      "path_counts": [
+        165,
+        0,
+        14,
+        70,
+        151
+      ],
+      "edge_flows": [
+        179,
+        221,
+        165,
+        14,
+        70,
+        151,
+        165,
+        0,
+        84,
+        151
+      ],
+      "potential": 112271,
+      "social_cost": 216425,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 4000,
+      "lex_multiplier": 1924801,
+      "objective_value": 112271
+    },
+    {
+      "objective": "lex",
+      "n": 400,
+      "path_counts": [
+        165,
+        0,
+        14,
+        70,
+        151
+      ],
+      "edge_flows": [
+        179,
+        221,
+        165,
+        14,
+        70,
+        151,
+        165,
+        0,
+        84,
+        151
+      ],
+      "potential": 112271,
+      "social_cost": 216425,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 4000,
+      "lex_multiplier": 1924801,
+      "objective_value": 216099549496
+    },
+    {
+      "objective": "social",
+      "n": 400,
+      "path_counts": [
+        165,
+        0,
+        14,
+        70,
+        151
+      ],
+      "edge_flows": [
+        179,
+        221,
+        165,
+        14,
+        70,
+        151,
+        165,
+        0,
+        84,
+        151
+      ],
+      "potential": 112271,
+      "social_cost": 216425,
+      "equilibrium_gap": 0,
+      "is_pne": true,
+      "expanded_nodes": 7,
+      "expanded_arcs": 4000,
+      "lex_multiplier": 1924801,
+      "objective_value": 216425
+    }
+  ],
+  "synchronous_counterexample": [
+    {
+      "t": 0,
+      "profile": [
+        0,
+        0
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 1,
+      "profile": [
+        1,
+        1
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 2,
+      "profile": [
+        0,
+        0
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 3,
+      "profile": [
+        1,
+        1
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 4,
+      "profile": [
+        0,
+        0
+      ],
+      "potential": 3,
+      "social_cost": 4
+    }
+  ],
+  "comparison_direction": {
+    "phase": "treatment=with CD; reference=without CD",
+    "parameter_ensemble": "treatment=modified network; reference=original parameter sample",
+    "topology_ensemble": "treatment=edge removed; reference=original topology sample"
+  },
+  "category_definitions": {
+    "robust_benefit": "treatment_max < reference_min",
+    "robust_harm": "treatment_min > reference_max",
+    "weak_benefit": "treatment_max = reference_min, excluding equal singletons",
+    "weak_harm": "treatment_min = reference_max, excluding equal singletons",
+    "equal": "both intervals are the same singleton",
+    "overlap": "remaining overlapping intervals; includes equal non-singleton intervals"
+  },
+  "phase_categories": {
+    "robust_benefit": 18,
+    "weak_benefit": 2,
+    "equal": 39,
+    "overlap": 192,
+    "robust_harm": 39,
+    "weak_harm": 9
+  },
+  "phase_cells": 299,
+  "continuous_intervals": 7,
+  "parameter_ensemble": {
+    "delete_CD": {
+      "equal": 65,
+      "overlap": 27,
+      "robust_harm": 5,
+      "weak_harm": 3
+    },
+    "add_BC": {
+      "weak_benefit": 2,
+      "robust_benefit": 73,
+      "equal": 15,
+      "robust_harm": 2,
+      "overlap": 7,
+      "weak_harm": 1
+    },
+    "improve_DT": {
+      "robust_benefit": 64,
+      "overlap": 13,
+      "equal": 21,
+      "weak_benefit": 2
+    }
+  },
+  "topology_ensemble": {
+    "equal": 25,
+    "robust_harm": 13,
+    "overlap": 2
+  },
+  "parameter_samples": 100,
+  "topology_samples": 40,
+  "topology_attempts": 41,
+  "lex_not_best_ne_parameter_samples": 3,
+  "lex_not_best_ne_topology_samples": 0,
+  "independently_verified_ensemble_equilibria": 690,
+  "algorithm_driver_queries": 10092,
+  "scaling_driver_queries": 807092,
+  "oracle_matches": 817208,
+  "research_br_runs": 451,
+  "all_br_gaps_zero": true
+}

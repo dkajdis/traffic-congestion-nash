@@ -1,0 +1,81 @@
+{
+  "rule": "cyclic",
+  "n": 12,
+  "path_counts": [
+    3,
+    2,
+    0,
+    3,
+    4
+  ],
+  "potential": 308,
+  "social_cost": 397,
+  "moves": 9,
+  "sweeps": 2,
+  "driver_queries": 24,
+  "path_candidate_evaluations": 120,
+  "dijkstra_matches": 24,
+  "equilibrium_gap": 0,
+  "trace": [
+    {
+      "move": 0,
+      "potential": 462,
+      "social_cost": 660,
+      "gain": 0
+    },
+    {
+      "move": 1,
+      "potential": 422,
+      "social_cost": 587,
+      "gain": 40
+    },
+    {
+      "move": 2,
+      "potential": 390,
+      "social_cost": 530,
+      "gain": 32
+    },
+    {
+      "move": 3,
+      "potential": 364,
+      "social_cost": 479,
+      "gain": 26
+    },
+    {
+      "move": 4,
+      "potential": 344,
+      "social_cost": 446,
+      "gain": 20
+    },
+    {
+      "move": 5,
+      "potential": 328,
+      "social_cost": 415,
+      "gain": 16
+    },
+    {
+      "move": 6,
+      "potential": 318,
+      "social_cost": 396,
+      "gain": 10
+    },
+    {
+      "move": 7,
+      "potential": 314,
+      "social_cost": 398,
+      "gain": 4
+    },
+    {
+      "move": 8,
+      "potential": 310,
+      "social_cost": 391,
+      "gain": 4
+    },
+    {
+      "move": 9,
+      "potential": 308,
+      "social_cost": 397,
+      "gain": 2
+    }
+  ]
+}

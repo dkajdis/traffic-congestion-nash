@@ -1,0 +1,13 @@
+{
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "numpy": "2.3.1",
+  "networkx": "3.6.1",
+  "matplotlib": "3.10.9",
+  "seeds": {
+    "algorithm_initial": 20261123,
+    "scaling_initial": 90210,
+    "parameters": 20261124,
+    "topologies": 20261125
+  }
+}

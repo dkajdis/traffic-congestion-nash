@@ -1,0 +1,4 @@
+﻿rule,runs,cost_min,cost_max,cost_mean,moves_median,queries_median,queries_min,queries_max,candidate_median,outcomes
+cyclic,100,397,411,398.82,4.5,24.0,24,24,120.0,"{397: 72, 401: 19, 407: 5, 411: 4}"
+random,100,397,411,398.5,4.5,24.0,24,36,120.0,"{397: 74, 401: 19, 407: 6, 411: 1}"
+max_gain,100,397,411,401.62,3.0,48.0,24,96,240.0,"{397: 52, 401: 11, 407: 25, 411: 12}"

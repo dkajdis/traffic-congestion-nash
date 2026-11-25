@@ -1,0 +1,1854 @@
+[
+  {
+    "attempt": 1,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "A",
+        "E"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 2,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "O",
+        "E"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 3,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "D",
+        "T"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 4,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "B",
+        "T"
+      ]
+    ],
+    "path_count": 7,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 5,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "A",
+        "E"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 6,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "B",
+        "T"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "A",
+        "T"
+      ],
+      [
+        "B",
+        "E"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 7,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "O",
+        "E"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 8,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "B",
+        "T"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "O",
+        "T"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 9,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "B",
+        "T"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 10,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "T"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "O",
+        "T"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 11,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "O",
+        "D"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 12,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "B"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "A",
+        "D"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 13,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "T"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "E"
+      ]
+    ],
+    "path_count": 6,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 14,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "T"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "D",
+        "T"
+      ]
+    ],
+    "path_count": 9,
+    "accepted": false,
+    "reason": "path_count_outside_2_to_8"
+  },
+  {
+    "attempt": 15,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "B",
+        "T"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 16,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "O",
+        "B"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "O",
+        "D"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 17,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "A",
+        "T"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "C",
+        "T"
+      ]
+    ],
+    "path_count": 8,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 18,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "A",
+        "T"
+      ]
+    ],
+    "path_count": 6,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 19,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "O",
+        "B"
+      ]
+    ],
+    "path_count": 7,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 20,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "T"
+      ],
+      [
+        "O",
+        "B"
+      ],
+      [
+        "B",
+        "T"
+      ],
+      [
+        "B",
+        "E"
+      ]
+    ],
+    "path_count": 7,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 21,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "B",
+        "E"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 22,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "E"
+      ]
+    ],
+    "path_count": 6,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 23,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "C",
+        "E"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 24,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "B",
+        "E"
+      ]
+    ],
+    "path_count": 6,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 25,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "B",
+        "D"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 26,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "B",
+        "T"
+      ],
+      [
+        "O",
+        "T"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "O",
+        "E"
+      ]
+    ],
+    "path_count": 7,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 27,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "A",
+        "C"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 28,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "T"
+      ],
+      [
+        "A",
+        "T"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 29,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "B",
+        "T"
+      ],
+      [
+        "O",
+        "D"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 30,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "O",
+        "T"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "B",
+        "T"
+      ]
+    ],
+    "path_count": 6,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 31,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "T"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "A",
+        "C"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 32,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "O",
+        "C"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 33,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "A",
+        "D"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 34,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "B",
+        "T"
+      ],
+      [
+        "O",
+        "D"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 35,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "T"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "O",
+        "D"
+      ],
+      [
+        "D",
+        "T"
+      ],
+      [
+        "B",
+        "T"
+      ]
+    ],
+    "path_count": 8,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 36,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "A",
+        "E"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 37,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "O",
+        "T"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 38,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "A",
+        "D"
+      ]
+    ],
+    "path_count": 3,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 39,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "A",
+        "T"
+      ],
+      [
+        "C",
+        "T"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 40,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "B",
+        "D"
+      ]
+    ],
+    "path_count": 5,
+    "accepted": true,
+    "reason": "accepted"
+  },
+  {
+    "attempt": 41,
+    "edges": [
+      [
+        "O",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "B",
+        "T"
+      ]
+    ],
+    "path_count": 4,
+    "accepted": true,
+    "reason": "accepted"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "labeled_profiles": 625,
+  "unilateral_identity_checks": 12500,
+  "aggregate_pne_match": true,
+  "tie_stays": true,
+  "self_removal_check": true
+}

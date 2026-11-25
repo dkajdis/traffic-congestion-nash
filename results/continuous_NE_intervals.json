@@ -1,0 +1,93 @@
+[
+  {
+    "counts": [
+      1,
+      4,
+      0,
+      2,
+      5
+    ],
+    "mu_min": 0,
+    "mu_max": 1,
+    "social_intercept": 407,
+    "social_slope": 4
+  },
+  {
+    "counts": [
+      2,
+      3,
+      0,
+      2,
+      5
+    ],
+    "mu_min": 1,
+    "mu_max": 3,
+    "social_intercept": 398,
+    "social_slope": 3
+  },
+  {
+    "counts": [
+      2,
+      3,
+      0,
+      3,
+      4
+    ],
+    "mu_min": 0,
+    "mu_max": 1,
+    "social_intercept": 404,
+    "social_slope": 3
+  },
+  {
+    "counts": [
+      3,
+      2,
+      0,
+      3,
+      4
+    ],
+    "mu_min": 1,
+    "mu_max": 3,
+    "social_intercept": 395,
+    "social_slope": 2
+  },
+  {
+    "counts": [
+      4,
+      0,
+      1,
+      3,
+      4
+    ],
+    "mu_min": 4,
+    "mu_max": 12,
+    "social_intercept": 390,
+    "social_slope": 0
+  },
+  {
+    "counts": [
+      4,
+      1,
+      0,
+      3,
+      4
+    ],
+    "mu_min": 3,
+    "mu_max": 4,
+    "social_intercept": 390,
+    "social_slope": 1
+  },
+  {
+    "counts": [
+      5,
+      0,
+      0,
+      4,
+      3
+    ],
+    "mu_min": 3,
+    "mu_max": 12,
+    "social_intercept": 395,
+    "social_slope": 0
+  }
+]

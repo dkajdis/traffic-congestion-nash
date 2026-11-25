@@ -1,0 +1,81 @@
+{
+  "latency": "n on first edge, zero on second",
+  "n": 2,
+  "trace": [
+    {
+      "t": 0,
+      "profile": [
+        0,
+        0
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 1,
+      "profile": [
+        1,
+        1
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 2,
+      "profile": [
+        0,
+        0
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 3,
+      "profile": [
+        1,
+        1
+      ],
+      "potential": 3,
+      "social_cost": 4
+    },
+    {
+      "t": 4,
+      "profile": [
+        0,
+        0
+      ],
+      "potential": 3,
+      "social_cost": 4
+    }
+  ],
+  "sequential": {
+    "rule": "cyclic",
+    "n": 2,
+    "path_counts": [
+      1,
+      1
+    ],
+    "potential": 2,
+    "social_cost": 2,
+    "moves": 1,
+    "sweeps": 2,
+    "driver_queries": 4,
+    "path_candidate_evaluations": 8,
+    "dijkstra_matches": 4,
+    "equilibrium_gap": 0,
+    "trace": [
+      {
+        "move": 0,
+        "potential": 3,
+        "social_cost": 4,
+        "gain": 0
+      },
+      {
+        "move": 1,
+        "potential": 2,
+        "social_cost": 2,
+        "gain": 1
+      }
+    ]
+  }
+}
